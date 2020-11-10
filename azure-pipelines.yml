@@ -17,7 +17,7 @@ steps:
   displayName: 'dotnet build $(buildConfiguration)'
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'dpinalopez68AZ204Noviembre'
+    azureSubscription: 'dpinalopez68AZ204NoviembreConnection'
     appName: 'appdpina'
     package: $(System.DefaultWorkingDirectory)/**/*.zip  
 
